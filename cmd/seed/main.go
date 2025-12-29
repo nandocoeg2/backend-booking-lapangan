@@ -9,10 +9,10 @@ import (
 	"strings"
 
 	"github.com/minio/minio-go/v7"
-	"github.com/nando/booking_lapangan_backend/internal/config"
-	"github.com/nando/booking_lapangan_backend/internal/database"
-	"github.com/nando/booking_lapangan_backend/internal/models"
-	"github.com/nando/booking_lapangan_backend/internal/storage"
+	"github.com/nandocoeg2/backend-booking-lapangan/internal/config"
+	"github.com/nandocoeg2/backend-booking-lapangan/internal/database"
+	"github.com/nandocoeg2/backend-booking-lapangan/internal/models"
+	"github.com/nandocoeg2/backend-booking-lapangan/internal/storage"
 	"golang.org/x/crypto/bcrypt"
 )
 

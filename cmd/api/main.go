@@ -7,11 +7,11 @@ import (
 	"github.com/gofiber/fiber/v2/middleware/cors"
 	"github.com/gofiber/fiber/v2/middleware/logger"
 	"github.com/gofiber/fiber/v2/middleware/recover"
-	"github.com/nando/booking_lapangan_backend/internal/config"
-	"github.com/nando/booking_lapangan_backend/internal/database"
-	"github.com/nando/booking_lapangan_backend/internal/models"
-	"github.com/nando/booking_lapangan_backend/internal/routes"
-	"github.com/nando/booking_lapangan_backend/internal/storage"
+	"github.com/nandocoeg2/backend-booking-lapangan/internal/config"
+	"github.com/nandocoeg2/backend-booking-lapangan/internal/database"
+	"github.com/nandocoeg2/backend-booking-lapangan/internal/models"
+	"github.com/nandocoeg2/backend-booking-lapangan/internal/routes"
+	"github.com/nandocoeg2/backend-booking-lapangan/internal/storage"
 )
 
 func main() {

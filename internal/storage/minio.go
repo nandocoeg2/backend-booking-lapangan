@@ -10,7 +10,7 @@ import (
 	"github.com/google/uuid"
 	"github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/credentials"
-	"github.com/nando/booking_lapangan_backend/internal/config"
+	"github.com/nandocoeg2/backend-booking-lapangan/internal/config"
 )
 
 var MinioClient *minio.Client

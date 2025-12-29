@@ -5,9 +5,9 @@ import (
 	"strconv"
 
 	"github.com/gofiber/fiber/v2"
-	"github.com/nando/booking_lapangan_backend/internal/database"
-	"github.com/nando/booking_lapangan_backend/internal/models"
-	"github.com/nando/booking_lapangan_backend/internal/storage"
+	"github.com/nandocoeg2/backend-booking-lapangan/internal/database"
+	"github.com/nandocoeg2/backend-booking-lapangan/internal/models"
+	"github.com/nandocoeg2/backend-booking-lapangan/internal/storage"
 )
 
 // CreateVenueRequest

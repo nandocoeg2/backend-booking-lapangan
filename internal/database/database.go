@@ -3,7 +3,7 @@ package database
 import (
 	"log"
 
-	"github.com/nando/booking_lapangan_backend/internal/config"
+	"github.com/nandocoeg2/backend-booking-lapangan/internal/config"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )

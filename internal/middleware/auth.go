@@ -5,8 +5,8 @@ import (
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/golang-jwt/jwt/v5"
-	"github.com/nando/booking_lapangan_backend/internal/config"
-	"github.com/nando/booking_lapangan_backend/internal/models"
+	"github.com/nandocoeg2/backend-booking-lapangan/internal/config"
+	"github.com/nandocoeg2/backend-booking-lapangan/internal/models"
 )
 
 // Protected protects routes

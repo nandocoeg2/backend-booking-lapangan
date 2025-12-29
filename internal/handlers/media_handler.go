@@ -7,8 +7,8 @@ import (
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/minio/minio-go/v7"
-	"github.com/nando/booking_lapangan_backend/internal/config"
-	"github.com/nando/booking_lapangan_backend/internal/storage"
+	"github.com/nandocoeg2/backend-booking-lapangan/internal/config"
+	"github.com/nandocoeg2/backend-booking-lapangan/internal/storage"
 )
 
 // GetImage proxies the image from MinIO to the client.
