@@ -1,0 +1,19 @@
+meta {
+  name: Check Availability
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{base_url}}/user/courts/1/availability?date=2024-01-20
+  body: none
+  auth: bearer
+}
+
+params:query {
+  date: 2024-01-20
+}
+
+auth:bearer {
+  token: {{token}}
+}

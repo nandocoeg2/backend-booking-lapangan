@@ -1,0 +1,16 @@
+meta {
+  name: Get Venues
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{base_url}}/venues
+  body: none
+  auth: none
+}
+
+params:query {
+  ~search: badminton
+  ~location: Jakarta
+}

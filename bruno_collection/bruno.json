@@ -1,0 +1,8 @@
+{
+    "version": "1",
+    "name": "CourtBooker API",
+    "type": "collection",
+    "ignore": [
+        ".git"
+    ]
+}

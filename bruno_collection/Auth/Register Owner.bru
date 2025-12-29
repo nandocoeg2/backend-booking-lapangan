@@ -1,0 +1,21 @@
+meta {
+  name: Register (Venue Owner)
+  type: http
+  seq: 7
+}
+
+post {
+  url: {{base_url}}/auth/register
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Owner Budi",
+    "email": "owner@budi.com",
+    "password": "123",
+    "phone_number": "081234567890",
+    "role": "VENUE_OWNER"
+  }
+}

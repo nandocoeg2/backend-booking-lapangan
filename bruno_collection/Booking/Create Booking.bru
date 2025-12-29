@@ -1,0 +1,25 @@
+meta {
+  name: Create Booking
+  type: http
+  seq: 2
+}
+
+post {
+  url: {{base_url}}/user/bookings
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{token}}
+}
+
+body:json {
+  {
+    "court_id": 1,
+    "booking_date": "2024-01-20",
+    "start_time": "18:00",
+    "end_time": "20:00",
+    "price": 100000
+  }
+}

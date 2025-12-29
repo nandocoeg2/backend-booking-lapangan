@@ -1,0 +1,31 @@
+meta {
+  name: Create Venue (Owner)
+  type: http
+  seq: 1
+}
+
+post {
+  url: {{base_url}}/owner/venues
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{token}}
+}
+
+body:json {
+  {
+    "name": "Gor Badminton Juara",
+    "description": "Lapangan badminton terbaik di Jakarta Selatan",
+    "address": "Jl. Sudirman No. 1",
+    "location": "Jakarta Selatan",
+    "latitude": -6.2088,
+    "longitude": 106.8456,
+    "rating": 4.5,
+    "starting_price": 50000,
+    "facilities": ["Wifi", "Parking", "Toilet", "Canteen"],
+    "image_urls": ["https://example.com/field1.jpg"],
+    "category": "Badminton"
+  }
+}

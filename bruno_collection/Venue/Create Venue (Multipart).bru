@@ -1,0 +1,30 @@
+meta {
+  name: Create Venue (With Image)
+  type: http
+  seq: 6
+}
+
+post {
+  url: {{base_url}}/owner/venues
+  body: multipartForm
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{token}}
+}
+
+body:multipart-form {
+  name: GOR Badminton Sejahtera
+  description: Lapangan badminton terbaik di kota
+  address: Jl. Merdeka No. 10
+  location: Jakarta Selatan
+  latitude: -6.123456
+  longitude: 106.123456
+  starting_price: 75000
+  category: Badminton
+  facilities: WiFi
+  facilities: Parkir
+  facilities: Musholla
+  images: @file(D:\Project\booking_lapangan_flutter\assets\images\badminton_court_1.jpg)
+}
